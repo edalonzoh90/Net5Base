@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Demox</h1>
+
+<input type="button" value="test" onclick="test()" />
+
+<script>
+    function test(event) {
+          
+
+            //Crear petición ajax al chat controller
+            $.ajax({
+                url: "chat/GetInfoEmployee",
+                async: true,
+                type: 'POST',
+                data: { ficha: "20005293" },
+                success: function (data) {
+                    console.log(data);
+                },
+
+                error: function (jqXHR, textStatus, error) {
+                    var err = textStatus + ", " + error;
+                    console.log(err);
+                }
+            });
+
+
+        }
+</script>

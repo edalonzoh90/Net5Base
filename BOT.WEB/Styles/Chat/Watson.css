@@ -1,0 +1,251 @@
+﻿
+@font-face {
+    font-family: 'HomepageBaukasten-Book';
+    src: url('Fonts/HomepageBaukasten-Book.ttf') format('truetype');
+}
+
+body {
+    font-family: HomepageBaukasten-Book !important;
+}
+
+.chatElement {
+    height: 600px;
+    width: 100%;
+    height: 85vh;
+}
+
+.list-group {
+    padding-top: 70px;
+    padding-left: -15px;
+    margin-left: -15px;
+    /**/
+}
+
+.list-group-item {
+    background-color: rgb(252, 252, 252);
+}
+
+.faqs {
+    border-left: 5px solid #2dd411;
+    margin-top: 5px;
+}
+
+.relevant {
+    border-left: 5px solid #fd9300;
+}
+
+
+h1 {
+    font-size: 16px;
+    font-family: Segoe UI;
+    line-height: 20px;
+    color: whitesmoke;
+    padding: 13px 0px 0px 20px;
+}
+
+#heading {
+    background-color: #218ecf;
+    height: 50px;
+    /*width: 50vw;*/
+}
+
+#webchat {
+    height: 80vh;
+    /*width: 50vw;*/
+}
+
+.unus {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+#WAC__header {
+    background-color: #218ecf !important;
+    color: whitesmoke !important;
+    font-family: HomepageBaukasten-Book !important;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) !important;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) !important;
+    font-size: 18px !important;
+    margin-bottom: 20px !important;
+}
+
+#WAC__header-name {
+    padding-left: 80px !important;
+}
+
+.WAC__sent {
+    color: #fff !important
+}
+
+.custom_received {
+    border: 1px solid #fff !important;
+    background-color: var(--WatsonAssistantChat-SECONDARY-color) !important;
+    padding: 8px 12px 8px 12px !important;
+    border-radius: 8px 8px 0px 8px !important;
+    max-width: 75% !important;
+    width: auto !important;
+}
+
+
+.custom_received {
+    border: 1px solid #fff !important;
+    background: #fff !important;
+    border-radius: var(--WatsonAssistantChat-BASE-border-radius-med) var(--WatsonAssistantChat-BASE-border-radius-med) var(--WatsonAssistantChat-BASE-border-radius-med) 0 !important;
+    color: #000000 !important;
+    font-size: var(--WatsonAssistantChat-BASE-font-size-med) !important;
+    line-height: var(--WatsonAssistantChat-BASE-line-height-med) !important;
+    margin-bottom: var(--WatsonAssistantChat-BASE-spacing-05) !important;
+    max-width: 75% !important;
+    padding: var(--WatsonAssistantChat-BASE-spacing-03) var(--WatsonAssistantChat-BASE-spacing-04) !important;
+    width: max-content !important;
+}
+
+    .custom_received:after {
+        border-right: 8px solid transparent !important;
+        border-top: 8px solid #fff !important;
+        bottom: -8px !important;
+        content: "" !important;
+        position: absolute !important;
+        left: 0px !important;
+    }
+
+.logo {
+    position: absolute;
+    z-index: 100;
+    top: -10px;
+    left: 30px;
+    width: 70px;
+}
+
+.btn_active {
+    background: #4c4c4c !important;
+    color: whitesmoke !important
+}
+
+.loader {
+    position: absolute;
+}
+
+.logo_loader {
+    /*position: absolute;*/
+    /*margin-top: 100px;*/
+    /*left: 340px;*/
+}
+
+.cssload-container {
+    width: 100%;
+    height: 95vh;
+    text-align: center;
+    background-image: url('Images/logo_sede_round.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 169px;
+    height: 169px;
+    margin: 0 auto;
+}
+
+.cssload-bot-container {
+    width: 100%;
+    height: 95vh;
+    text-align: center;
+    background-image: url('Images/bot.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 169px;
+    height: 169px;
+    margin: 0 auto;
+}
+
+.cssload-speeding-wheel {
+    width: 169px;
+    height: 169px;
+    margin: 0 auto;
+    border: 10px solid rgb(33,143,207);
+    border-radius: 50%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    animation: cssload-spin 575ms infinite linear;
+    -o-animation: cssload-spin 575ms infinite linear;
+    -ms-animation: cssload-spin 575ms infinite linear;
+    -webkit-animation: cssload-spin 575ms infinite linear;
+    -moz-animation: cssload-spin 575ms infinite linear;
+}
+
+@keyframes cssload-spin {
+    100% {
+        transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes cssload-spin {
+    100% {
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-ms-keyframes cssload-spin {
+    100% {
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes cssload-spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes cssload-spin {
+    100% {
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.btn-blue:active {
+    background-color: #217ebd !important;
+    border-color: #1f78b5 !important;
+}
+
+.btn-blue:hover {
+    background-color: #217ebd !important;
+    border-color: #1f78b5 !important;
+}
+
+.btn-blue {
+    background-color: #3598dc !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    display: inline-block !important;
+    margin: 3px !important;
+}
+
+.div-blue {
+    max-width: 75% !important;
+}
+
+.btn-grey {
+    font-weight: bold !important;
+    display: inline-block !important;
+    margin: 3px !important;
+}
+
+    .btn-grey:active {
+        background-color: #F1C40F !important;
+        border-color: #F1C40F !important;
+    }
+
+    .btn-grey:hover {
+        background-color: #F1C40F !important;
+        border-color: #F1C40F !important;
+    }
+
+.btn-grey-selected {
+    background-color: #F1C40F !important;
+    border-color: #F1C40F !important;
+}
